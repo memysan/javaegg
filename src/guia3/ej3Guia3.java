@@ -28,10 +28,14 @@ public class ej3Guia3 {
         Scanner leer=new Scanner(System.in);
         System.out.println("Ingrese una frase o palabra de ocho caracteres");
         String frase= leer.next();
-      
-        int length = frase.length();
+      if(frase.length()==8){
+          System.out.println("correcto");
+      }else{
+          System.out.println("incorrecto");
+      }
         
-       System.out.println("La frase tiene "+ frase.length()+ " caracteres");
+        
+      
      
          
         
