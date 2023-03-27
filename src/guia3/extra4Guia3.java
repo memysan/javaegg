@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author irigo
  */
-public class ej6Guia3 {
+public class extra4Guia3 {
 
     /**
      * @param args the command line arguments
@@ -19,10 +19,14 @@ public class ej6Guia3 {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        Scanner leer=new Scanner(System.in);
-        System.out.println("Ingrese dos numeros enteros");
-        int num,num2 =leer.nextInt();
-        
+        Scanner leer = new Scanner(System.in);
+        System.out.println("Ingrese una vocal");
+        String letra= leer.next().toLowerCase();
+        if (letra.equals("a")||letra.equals("e")||letra.equals("i")||letra.equals("o")||letra.equals("u")){
+            System.out.println("correcto");
+        }else{
+            System.out.println("No es vocal");
+        }
     }
     
 }
