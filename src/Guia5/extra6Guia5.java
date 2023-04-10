@@ -43,7 +43,7 @@ public class extra6Guia5 {
                 System.out.print(matriz[i][j]+ " ");
                 
             }
-            System.out.println("");
+            System.out.println(" ");
         }
        
         System.out.println("La suma de los valores es: " + suma);
